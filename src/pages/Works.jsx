@@ -12,7 +12,7 @@ const Works = () => {
     }
 
   return (
-   <div id='works' className=' lg:px-20 px-7 py-10 w-full overflow-hidden' >
+   <div id='sectionworks' className=' lg:px-20 px-7 py-10 w-full overflow-hidden' >
     <div className=' flex flex-col items-center  pb-10' data-aos="fade-up"
      data-aos-duration="500">
     <h2 className=' text-3xl  text-dark font-medium text-center mb-3'>Works</h2>

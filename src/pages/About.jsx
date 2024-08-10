@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 const About = () => {
   AOS.init();
   return (
-    <div id='about' className=' lg:px-20 px-7 py-24 -z-40 w-full overflow-hidden'>
+    <div id='sectionabout' className=' lg:px-20 px-7 py-24 -z-40 w-full overflow-hidden'>
 
            <div className='  lg:flex  lg:space-x-20 items-center'>
            <div className=' basis-1/2 w-full' data-aos="fade-right">

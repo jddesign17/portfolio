@@ -8,7 +8,7 @@ const Contact = () => {
     const link = `https://wa.me/${phonenumber}?text=${encodeURIComponent(message)}`
 
   return (
-    <div className=' pb-20 flex flex-col space-y-10 items-center w-full py-20 overflow-hidden' id='contact' data-aos="flip-left" >
+    <div className=' pb-20 flex flex-col space-y-10 items-center w-full py-20 overflow-hidden' id='sectioncontact' data-aos="flip-left" >
         <div >
             <p className=' capitalize text-3xl text-dark font-ligh'>get In to touch !</p>
         </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import image from "../assets/photo.png"
-import Navbar from '../pages/Navbar'
 import resume from "../assets/resume.jpg"
 import AOS from 'aos';
 import { FiDownloadCloud } from "react-icons/fi";
@@ -9,8 +8,8 @@ import 'aos/dist/aos.css';
 const Home = () => {
     AOS.init();
   return (
-   <div>
-    <Navbar/>
+   <div id='sectionhome'>
+    
     <div className=' flex flex-col items-center lg:pt-20 pt-10 w-full'>
      
      <div className=' flex flex-col items-center'>
